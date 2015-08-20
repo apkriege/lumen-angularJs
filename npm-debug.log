@@ -1,0 +1,192 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json example@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/akrieger/Desktop/RAWR/rylee',
+6 verbose install   [ 'angular', 'angular-route', 'jquery' ] ]
+7 info preinstall example@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'angular@1.2.16', null ]
+10 verbose cache add name=undefined spec="angular@1.2.16" args=["angular@1.2.16",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'angular@1.2.16',
+11 verbose parsed url   path: 'angular@1.2.16',
+11 verbose parsed url   href: 'angular@1.2.16' }
+12 verbose cache add [ 'angular-route@1.2.16', null ]
+13 verbose cache add name=undefined spec="angular-route@1.2.16" args=["angular-route@1.2.16",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'angular-route@1.2.16',
+14 verbose parsed url   path: 'angular-route@1.2.16',
+14 verbose parsed url   href: 'angular-route@1.2.16' }
+15 verbose cache add [ 'jquery@1.8.3', null ]
+16 verbose cache add name=undefined spec="jquery@1.8.3" args=["jquery@1.8.3",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'jquery@1.8.3',
+17 verbose parsed url   path: 'jquery@1.8.3',
+17 verbose parsed url   href: 'jquery@1.8.3' }
+18 verbose cache add name="angular" spec="1.2.16" args=["angular","1.2.16"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '1.2.16',
+19 verbose parsed url   path: '1.2.16',
+19 verbose parsed url   href: '1.2.16' }
+20 verbose addNamed [ 'angular', '1.2.16' ]
+21 verbose addNamed [ '1.2.16', '1.2.16' ]
+22 verbose cache add name="angular-route" spec="1.2.16" args=["angular-route","1.2.16"]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: '1.2.16',
+23 verbose parsed url   path: '1.2.16',
+23 verbose parsed url   href: '1.2.16' }
+24 verbose addNamed [ 'angular-route', '1.2.16' ]
+25 verbose addNamed [ '1.2.16', '1.2.16' ]
+26 verbose cache add name="jquery" spec="1.8.3" args=["jquery","1.8.3"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '1.8.3',
+27 verbose parsed url   path: '1.8.3',
+27 verbose parsed url   href: '1.8.3' }
+28 verbose addNamed [ 'jquery', '1.8.3' ]
+29 verbose addNamed [ '1.8.3', '1.8.3' ]
+30 silly lockFile fdd35bae-angular-1-2-16 angular@1.2.16
+31 verbose lock angular@1.2.16 /Users/akrieger/.npm/fdd35bae-angular-1-2-16.lock
+32 silly lockFile 4fb111de-angular-route-1-2-16 angular-route@1.2.16
+33 verbose lock angular-route@1.2.16 /Users/akrieger/.npm/4fb111de-angular-route-1-2-16.lock
+34 silly lockFile c39883fe-jquery-1-8-3 jquery@1.8.3
+35 verbose lock jquery@1.8.3 /Users/akrieger/.npm/c39883fe-jquery-1-8-3.lock
+36 verbose request where is /angular-route
+37 verbose request registry https://registry.npmjs.org/
+38 verbose request id 25ebd09ab3da475f
+39 verbose url raw /angular-route
+40 verbose url resolving [ 'https://registry.npmjs.org/', './angular-route' ]
+41 verbose url resolved https://registry.npmjs.org/angular-route
+42 verbose request where is https://registry.npmjs.org/angular-route
+43 info trying registry request attempt 1 at 11:07:31
+44 verbose etag "A1QNX7OP8WUFEGW2K047ZW4QA"
+45 http GET https://registry.npmjs.org/angular-route
+46 verbose request where is /angular
+47 verbose request registry https://registry.npmjs.org/
+48 verbose url raw /angular
+49 verbose url resolving [ 'https://registry.npmjs.org/', './angular' ]
+50 verbose url resolved https://registry.npmjs.org/angular
+51 verbose request where is https://registry.npmjs.org/angular
+52 info trying registry request attempt 1 at 11:07:31
+53 verbose etag "33QPRNHZ576V5WE5M6385FB1R"
+54 http GET https://registry.npmjs.org/angular
+55 verbose request where is /jquery
+56 verbose request registry https://registry.npmjs.org/
+57 verbose url raw /jquery
+58 verbose url resolving [ 'https://registry.npmjs.org/', './jquery' ]
+59 verbose url resolved https://registry.npmjs.org/jquery
+60 verbose request where is https://registry.npmjs.org/jquery
+61 info trying registry request attempt 1 at 11:07:31
+62 verbose etag "8TWRYE8WY4ZX99TYN1EWWS9E1"
+63 http GET https://registry.npmjs.org/jquery
+64 http 304 https://registry.npmjs.org/angular-route
+65 silly registry.get cb [ 304,
+65 silly registry.get   { date: 'Wed, 19 Aug 2015 15:07:31 GMT',
+65 silly registry.get     via: '1.1 varnish',
+65 silly registry.get     'cache-control': 'max-age=60',
+65 silly registry.get     etag: '"A1QNX7OP8WUFEGW2K047ZW4QA"',
+65 silly registry.get     age: '41',
+65 silly registry.get     connection: 'keep-alive',
+65 silly registry.get     'x-served-by': 'cache-iad2126-IAD',
+65 silly registry.get     'x-cache': 'HIT',
+65 silly registry.get     'x-cache-hits': '1',
+65 silly registry.get     'x-timer': 'S1439996851.744225,VS0,VE1',
+65 silly registry.get     vary: 'Accept' } ]
+66 verbose etag https://registry.npmjs.org/angular-route from cache
+67 http 304 https://registry.npmjs.org/angular
+68 silly registry.get cb [ 304,
+68 silly registry.get   { date: 'Wed, 19 Aug 2015 15:07:31 GMT',
+68 silly registry.get     via: '1.1 varnish',
+68 silly registry.get     'cache-control': 'max-age=60',
+68 silly registry.get     etag: '"33QPRNHZ576V5WE5M6385FB1R"',
+68 silly registry.get     age: '25',
+68 silly registry.get     connection: 'keep-alive',
+68 silly registry.get     'x-served-by': 'cache-iad2130-IAD',
+68 silly registry.get     'x-cache': 'HIT',
+68 silly registry.get     'x-cache-hits': '1',
+68 silly registry.get     'x-timer': 'S1439996851.745021,VS0,VE1',
+68 silly registry.get     vary: 'Accept' } ]
+69 verbose etag https://registry.npmjs.org/angular from cache
+70 http 304 https://registry.npmjs.org/jquery
+71 silly registry.get cb [ 304,
+71 silly registry.get   { date: 'Wed, 19 Aug 2015 15:07:31 GMT',
+71 silly registry.get     via: '1.1 varnish',
+71 silly registry.get     'cache-control': 'max-age=60',
+71 silly registry.get     etag: '"8TWRYE8WY4ZX99TYN1EWWS9E1"',
+71 silly registry.get     age: '30',
+71 silly registry.get     connection: 'keep-alive',
+71 silly registry.get     'x-served-by': 'cache-iad2132-IAD',
+71 silly registry.get     'x-cache': 'HIT',
+71 silly registry.get     'x-cache-hits': '2',
+71 silly registry.get     'x-timer': 'S1439996851.753033,VS0,VE0',
+71 silly registry.get     vary: 'Accept' } ]
+72 verbose etag https://registry.npmjs.org/jquery from cache
+73 silly lockFile 4fb111de-angular-route-1-2-16 angular-route@1.2.16
+74 silly lockFile 4fb111de-angular-route-1-2-16 angular-route@1.2.16
+75 silly lockFile fdd35bae-angular-1-2-16 angular@1.2.16
+76 silly lockFile fdd35bae-angular-1-2-16 angular@1.2.16
+77 silly lockFile c39883fe-jquery-1-8-3 jquery@1.8.3
+78 silly lockFile c39883fe-jquery-1-8-3 jquery@1.8.3
+79 error Error: version not found: angular-route@1.2.16
+79 error     at /usr/local/lib/node_modules/npm/lib/cache/add-named.js:125:12
+79 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+79 error     at Object.oncomplete (fs.js:108:15)
+80 error If you need help, you may report this *entire* log,
+80 error including the npm and node versions, at:
+80 error     <http://github.com/npm/npm/issues>
+81 error System Darwin 14.4.0
+82 error command "node" "/usr/local/bin/npm" "install"
+83 error cwd /Users/akrieger/Desktop/RAWR/rylee
+84 error node -v v0.10.35
+85 error npm -v 1.4.28
+86 verbose exit [ 1, true ]
