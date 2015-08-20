@@ -18,7 +18,3 @@
 $app->get('/', function() {
     return view('index');
 });
-
-$app->get('/test', function (){
-    return 'asdfasdf';
-});

@@ -3,10 +3,13 @@
 <head>
     <title>Lumen</title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-    <script src='/bower_components/angular/angular.js'></script>
-    <script src='/bower_components/angular-route/angular-route.js'></script>
-    <script src='/bower_components/jquery/dist/jquery.js'></script>
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/assets/scripts/app.js"></script>
+
+    <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
 
     <style>
         body {
@@ -41,11 +44,13 @@
         }
     </style>
 </head>
-<body>
-<div class="container">
-    <div class="content">
-        <div class="title">Lumen.</div>
-    </div>
-</div>
+<body ng-app="myApp">
+    <div ng-view></div>
+
+<!--<div class="container">-->
+<!--    <div class="content">-->
+<!--        <div class="title">Lumen.</div>-->
+<!--    </div>-->
+<!--</div>-->
 </body>
 </html>
