@@ -3,7 +3,7 @@
 <head>
     <title>Lumen</title>
 
-    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/node_modules/angular/angular.js"></script>
     <script src="/bower_components/angular-route/angular-route.js"></script>
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/assets/scripts/app.js"></script>
@@ -18,22 +18,10 @@
             width: 100%;
             height: 100%;
             color: #B0BEC5;
-            display: table;
+            /*display: table;*/
             font-weight: 100;
             font-family: 'Lato';
         }
-
-        .container {
-            text-align: center;
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-        .content {
-            text-align: center;
-            display: inline-block;
-        }
-
         .title {
             font-size: 96px;
             margin-bottom: 40px;

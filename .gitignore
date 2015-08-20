@@ -1,4 +1,4 @@
 /vendor
-/public/bower_components
+/node_modules
 /.idea
 .env
