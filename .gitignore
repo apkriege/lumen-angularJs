@@ -3,5 +3,4 @@
 /public/modules
 /.idea
 composer.lock
-.env
 .DS_Store
