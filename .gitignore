@@ -1,4 +1,6 @@
 /vendor
 /node_modules
+/public/modules
 /.idea
 .env
+.DS_Store
