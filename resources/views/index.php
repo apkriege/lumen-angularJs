@@ -9,7 +9,7 @@
     <script src="/assets/js/app.js"></script>
 
     <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-    <link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/module/css/bootstrap.css" rel="stylesheet" type="text/css">
 
     <style>
         body {
